@@ -1,5 +1,8 @@
+
+# NAME : VIGNESHWARAN VINAYAGAMOORTHY
+# REG NO :212223060301
 # Ex. No: 5 Inter-VLAN Routing Using Router-on-a-Stick
-# Date:
+# Date: 04-08-2026
 ________________________________________
 # Objective
 To configure Inter-VLAN routing using a single router interface with subinterfaces (Router-on-a-Stick) so that hosts in different VLANs can communicate with each other.
@@ -87,10 +90,25 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-12 095339" src="https://github.com/user-attachments/assets/ee92c9e5-8e35-475c-8ecf-e91b332b2ff9" />
+This image shows the configuration of the switch for all the PCs and thee router VLAN
+
 •	Router subinterface configuration<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-12 095352" src="https://github.com/user-attachments/assets/cefdafca-501d-4329-823d-0002b6ba3131" />
+This image shows the configurations and subconfiguratins of the router interface
+
 •	PC IP settings<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-12 095406" src="https://github.com/user-attachments/assets/bcaadec7-bcb1-46f3-aeea-63a9a029bafe" />
+This image shows the IP and gateway settings of the PC
+
 •	Successful ping between PCs in different VLANs after routing<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-12 094006" src="https://github.com/user-attachments/assets/bea2bd78-767e-424b-a577-4fe2efe09f54" />
+After routing, the PC sends the message to the PC in different VLAN
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-12 094143" src="https://github.com/user-attachments/assets/50f966d5-ac5a-4633-ab1a-da36b067ccca" />
+Messages within the same VLAN are also succesfully pinged
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
